@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3efb682965c90a41ac2230ff5bd8d19, type: 3}
+  m_Name: ARTrackingConfig
+  m_EditorClassIdentifier: 
+  objectMappings: []
+  yOffset: -0.15
+  nearPanelOffset: -0.15
+  horizontalThreshold: 0.85
+  enableManualRotation: 1
+  rotationSpeed: 10
+  lockXRotation: 1
+  enableDoubleTapReset: 1
+  doubleTapTimeWindow: 0.5
+  tapPositionThreshold: 50
+  autoAddColliders: 1
+  defaultColliderSize: {x: 1, y: 1, z: 1}
+  colliderSizeMultiplier: 1
+  enableDebugLogs: 1
+  logOnlySignificantMovements: 1
+  significantMovementThreshold: 2
+  useUnscaledTime: 1
+  rotationSensitivityMultiplier: 0.5
